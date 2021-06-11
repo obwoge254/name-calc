@@ -1,9 +1,11 @@
 t {
     margin: 20px;
+
 }
 
 form {
     margin: 20px;
+
 }
 
 form div{
@@ -11,11 +13,13 @@ form div{
     display: flex;
     flex-direction: column;
 
+
 }
 form div input {
     height:30px;
     padding: 5px;
     margin-top: 10px;
+
 }
 button {
     width:100%;
@@ -25,4 +29,5 @@ button {
     color: darkgrey;
     border-radius:4px;
     margin-top:20px;
+    
 } 
