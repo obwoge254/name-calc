@@ -21,6 +21,13 @@ form div input {
     margin-top: 10px;
 
 }
+ label {
+    height:30px;
+    padding: 5px;
+    margin-top: 10px;
+
+
+ }
 button {
     width:100%;
     padding: 10px;
