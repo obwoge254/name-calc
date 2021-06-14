@@ -5,11 +5,6 @@
 </script>
 function calcDayOfBirth(){ 
     event.preventDefault();
-
-var bday;
-    bday = window.prompt("When is your birthday (YYYY-MM-DD)?","");
-    var bdayArray = bday.split('-');
-
 //validate
 if(bdayArray.length !== 3){
     alert("invalid Date");
