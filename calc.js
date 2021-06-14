@@ -10,7 +10,7 @@ var bday;
     bday = window.prompt("When is your birthday (YYYY-MM-DD)?","");
     var bdayArray = bday.split('-');
 
-//validation
+//validate
 if(bdayArray.length !== 3){
     alert("invalid Date");
 }else{
