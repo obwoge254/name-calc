@@ -21,7 +21,15 @@ if(bdayArray.length !== 3){
    if(!bdayArray[0].match(/^\d\d\d\d$/) || 
       !bdayArray[1].match(/^\d\d$/) || 
       !bdayArray[2].match(/^\d\d$/)){
-       alert("invalid Date");    
+       alert("invalid Date");  
+       
+    }else{
+        var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday', 'Friday', 'Saturday'];     
+        var currentTime = new Date(            
+            parseInt(bdayArray[0]),
+            parseInt(bdayArray[1]) - 1, 
+            parseInt(bdayArray[2])
+        ); 
  
  //choose name either male/female
 
