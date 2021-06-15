@@ -1,8 +1,4 @@
 
-<script>
-
-    
-</script>
 function calcDayOfBirth(){ 
     event.preventDefault();
 //validate
