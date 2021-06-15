@@ -7,12 +7,15 @@ function calcDayOfBirth(){
 
  //calculate of  day of week
 
- myDayOfweek  = dt.getDay() ;
-// validation 
+ myDayOfweek  = dt.getUTCDay();
 
-
-
+ // validation 
+ 
  //choose name either male/female
+
+ male = [Sunday: Kwasi Monday: Kwadwo Tuesday: Kwabena Wednesday: Kwaku Thursday:  Yaw Friday: Kofi Saturday: Kwame];
+
+ female = [Sunday: Akosua, Monday: Adwoa Tuesday: Abenaa Wednesday: Akua Thursday:  Yaa Friday: Afua Saturday: Ama];
  //displaythe result
- document.getElementById('play').innerHTML = "Your year of birth is " + myYearOfBirth; 
+ document.getElementById('play').innerHTML = "Your day of week " + myDayOfweek; 
 }
