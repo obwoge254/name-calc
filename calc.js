@@ -30,6 +30,11 @@ if(bdayArray.length !== 3){
             parseInt(bdayArray[1]) - 1, 
             parseInt(bdayArray[2])
         ); 
+        var currentDay = currentTime.getDay();       
+        var currentDayName= days[currentDay];
+       document.write("You were born on "+currentDayName);
+    }
+}
  
  //choose name either male/female
 
