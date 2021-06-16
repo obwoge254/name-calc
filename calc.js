@@ -38,4 +38,5 @@ if(bdayArray.length !== 3){
  //female = [Sunday: Akosua, Monday: Adwoa Tuesday: Abenaa Wednesday: Akua Thursday:  Yaa Friday: Afua Saturday: Ama];
  //displaythe result
  document.getElementById('display').innerHTML = "Your day of week " + myDayOfweek; 
+ 
 }
